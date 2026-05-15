@@ -1,6 +1,9 @@
 # Sudoku Solver
 
-Small C sudoku solver.
+> [!NOTE]
+> This repo contains a one-weekend project and will probably not be modified anymore
+
+Small C Sudoku solver.
 
 ## Build and Run
 
@@ -22,14 +25,14 @@ error if it cannot find a solution.
 
 ## Puzzle Format
 
-Puzzle files are plain text descriptions of a 9x9 sudoku grid.
+Puzzle files are plain text descriptions of a 9x9 Sudoku grid.
 
 - Use digits `1` through `9` for fixed starting values.
 - Use `.` for empty cells.
-- Whitespaces and linebreaks are ignored, so spaces and blank lines may be used for readability.
+- Whitespace and line breaks are ignored, so spaces and blank lines may be used for readability.
 - The file should contain 81 meaningful cells total: digits or dots.
 
-Example:
+### Example:
 
 ```txt
 6 8 .   4 . 9   . 1 3
@@ -44,3 +47,6 @@ Example:
 1 . .   . 5 .   3 . .
 . . .   . . 7   . 9 1
 ```
+
+## Demo
+![demo](demo.gif)
