@@ -1,11 +1,14 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <time.h>
 
 #include "da.h"
 #include "grid.h"
 #include "wfc.h"
 
 int main(int argc, char** argv) {
+    srand(time(NULL));
+
     if (argc != 2) {
         fprintf(stderr, "Missing the file argument\n");
         fprintf(stderr, "\tUsage: ./sudoku FILE-NAME\n");
